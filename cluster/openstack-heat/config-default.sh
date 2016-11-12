@@ -37,6 +37,9 @@ EXTERNAL_NETWORK=${EXTERNAL_NETWORK:-public}
 
 SWIFT_SERVER_URL=${SWIFT_SERVER_URL:-}
 
+# Defines what bucket to upload Heat artifacts into.
+SWIFT_BUCKET_NAME=${SWIFT_BUCKET_NAME:-}
+
 # Flag indicates if new image must be created. If 'false' then image with IMAGE_ID will be used.
 # If 'true' then new image will be created from file config-image.sh
 CREATE_IMAGE=${CREATE_IMAGE:-true} # use "true" for devstack
